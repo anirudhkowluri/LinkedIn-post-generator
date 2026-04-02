@@ -89,7 +89,7 @@ GROQ_API_KEY=your_api_key_here
 
 <h2>4️⃣Run Application</h2>
 streamlit run main.py
-
+<br></br>
 
 📊 Example Use Case
 
