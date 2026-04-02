@@ -70,24 +70,24 @@ LangChain (if used)
 Pandas / Data Processing
 
 ⚙️ Installation & Setup
-1️⃣ <h2>#Clone Repository:</h2>
+1️⃣<h2>Clone Repository:</h2>
 git clone 
 
 https://github.com/anirudhkowluri/LinkedIn-post-generator.git
 
 cd LinkedIn-post-generator
 
-2️⃣ <h2>#Install Dependencies</h2>
+2️⃣<h2>Install Dependencies</h2>
 pip install -r requirements.txt
 
-3️⃣ <h2>#Setup Environment Variables</h2>
+3️⃣<h2>Setup Environment Variables</h2>
 Create a .env file:
 
 GROQ_API_KEY=your_api_key_here
 
 👉 Get API key: https://console.groq.com/keys
 
-4️⃣<h2>#Run Application</h2>
+4️⃣<h2>Run Application</h2>
 streamlit run main.py
 
 📊 Example Use Case
