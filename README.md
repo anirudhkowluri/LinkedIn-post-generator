@@ -26,6 +26,7 @@ Generating new posts that feel authentic and personalized
 🧩 Few-shot learning for better personalization
 💻 Clean UI with Streamlit
 🧠 How It Works
+
 🔹 Stage 1: Content Analysis
 Input: Past LinkedIn posts
 Extracts:
@@ -33,6 +34,7 @@ Topics
 Language
 Length
 Writing patterns
+
 🔹 Stage 2: Post Generation
 User selects:
 Topic
@@ -54,6 +56,7 @@ Generation Layer:
 Few-shot prompt construction
 LLM inference (Groq API)
 Output Layer: Generated LinkedIn post
+
 🛠️ Tech Stack
 Language: Python
 Frontend: Streamlit
@@ -65,14 +68,16 @@ Retrieval-based Generation
 Libraries:
 LangChain (if used)
 Pandas / Data Processing
+
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
 git clone https://github.com/anirudhkowluri/LinkedIn-post-generator.git
 cd LinkedIn-post-generator
+
 2️⃣ Install Dependencies
 pip install -r requirements.txt
-3️⃣ Setup Environment Variables
 
+3️⃣ Setup Environment Variables
 Create a .env file:
 
 GROQ_API_KEY=your_api_key_here
@@ -81,6 +86,7 @@ GROQ_API_KEY=your_api_key_here
 
 4️⃣ Run Application
 streamlit run main.py
+
 📊 Example Use Case
 
 A LinkedIn creator uploads their past posts →
@@ -93,6 +99,7 @@ Not just a text generator — style-aware AI system
 Implements few-shot learning in a real product
 Uses retrieval + generation hybrid approach
 Real-world application for personal branding & content automation
+
 🚀 Future Enhancements
 📈 Engagement prediction (likes/comments estimator)
 🔖 Auto hashtag generation
